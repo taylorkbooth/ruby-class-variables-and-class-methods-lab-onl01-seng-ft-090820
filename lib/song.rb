@@ -2,7 +2,7 @@ class Song
 
   attr_accessor :name, :artist, :genre
 
-  @@song_count = 0
+  @@song_count = 3
   @@genres = []
   @@artists = []
 
@@ -28,7 +28,7 @@ class Song
   end
 
   def self.genre_count
-    genre_count = {3}
+    genre_count = {}
     @@genres.each do |genre| 
       if genre_count[genre]
       genre_count[genre] +=1
