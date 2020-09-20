@@ -16,7 +16,7 @@ class Song
   end
 
   def self.count
-    @@song_count == 3
+    @@song_count
   end
 
   def self.genres
