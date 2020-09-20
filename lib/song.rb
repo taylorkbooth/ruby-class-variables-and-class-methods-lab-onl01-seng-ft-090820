@@ -12,7 +12,7 @@ class Song
     @@artists << @artist
     @@count +=1
   
-  
+end
   
   
   
