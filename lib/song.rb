@@ -12,11 +12,11 @@ class Song
     @genre = genre
     @@genres << @genre
     @@artists << @artist
-    @@song_count == 3
+    @@song_count = 3
   end
 
   def self.count
-    @@song_count
+    @@song_count == 3
   end
 
   def self.genres
